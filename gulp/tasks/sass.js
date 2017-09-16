@@ -18,7 +18,7 @@ module.exports = function () {
             ]
         }))
         .pipe($.gp.sourcemaps.write())
-        .pipe($.gulp.dest('./build/assets/css'))
+        .pipe($.gulp.dest('./build/css'))
     });
 };
 
