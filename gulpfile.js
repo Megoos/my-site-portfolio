@@ -6,6 +6,7 @@ global.$ = {
     },
     gulp: require('gulp'),
     del: require('del'),
+    fs: require('fs'),
     gp: require('gulp-load-plugins') (),
     browserSync: require('browser-sync').create()
 };
