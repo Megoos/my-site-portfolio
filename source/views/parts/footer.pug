@@ -1,0 +1,21 @@
+footer.footer
+  .footer__row.footer__row_top
+    .footer__item
+      ul.socials.socials_footer
+        -
+          icons = ['vk', 'github', 'in'];
+        each icon in icons
+          li.socials__item
+            a(href="#").socials__link
+              svg.socials__icon
+                use(xlink:href=`img/sprite/sprite.svg#${icon}`)    
+    .footer__item
+      ul.nav-menu
+        each link in ['Мои работы', "Обо мне", "Блог", "Авторизация"]
+          li.nav-menu__item
+            a(href="#").nav-menu__link= link
+    .footer__item
+      .footer__text-block Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis in itaque veniam nobis iste. Tempore molestias similique odit commodi quaerat!
+  .footer__row
+    .footer__item
+      .footer__about-user-name © Гуськов Михаил | создано с любовью в LoftSchool | 2017

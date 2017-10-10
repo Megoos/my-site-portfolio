@@ -1,7 +1,7 @@
 extends ../mainLayout.pug
 
 block title
-  title Приветствие
+  | Приветствие
 
 block content
   .auth-container
@@ -15,11 +15,10 @@ block content
         ul.socials
           each icon in ['vk', 'github', 'in']
             li.socials__item
-                a(href="#").socials__link
-                    svg.socials__icon
-                        use(xlink:href=`img/sprite/sprite.svg#${icon}`)
+              a(href="#").socials__link
+                svg.socials__icon
+                  use(xlink:href=`img/sprite/sprite.svg#${icon}`)
       .auth__btns
         a(href="#").auth__btn Мои работы
         a(href="#").auth__btn Обо мне
         a(href="#").auth__btn Блог
-
