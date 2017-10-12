@@ -5,13 +5,14 @@ block title
 
 block content
   .auth-container
+    .login__btn.auth__page Authorisation
     .auth
       .auth__info
         .user
           .user__photo
             img(src="img/content/user.jpg", alt="").user__avatar
-          .user__name Гуськов Михаил
-          .user__text Личный сайт веб разработчика
+          .user__name User Name
+          .user__text Welcome my page
         ul.socials
           each icon in ['vk', 'github', 'in']
             li.socials__item
@@ -19,6 +20,6 @@ block content
                 svg.socials__icon
                   use(xlink:href=`img/sprite/sprite.svg#${icon}`)
       .auth__btns
-        a(href="#").auth__btn Мои работы
-        a(href="#").auth__btn Обо мне
-        a(href="#").auth__btn Блог
+        a(href="#").auth__btn My work
+        a(href="#").auth__btn About
+        a(href="#").auth__btn Blog

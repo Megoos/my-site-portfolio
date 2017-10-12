@@ -1,6 +1,13 @@
 $lightgreen: #6c9c5a;
 $green: #4e8839;
-$grey: #566358;
+$gray: #566358;
 $black: #373e42;
 
 
+@import "mixins/*";
+
+@import "layout/setup";
+@import "layout/fonts";
+@import "layout/sprite";
+
+@import "blocks/**/*";

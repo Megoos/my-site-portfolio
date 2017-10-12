@@ -1,48 +1,51 @@
 <!DOCTYPE html>
-<html lang="ru"></html>
-<head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-  <link rel="stylesheet" href="/css/main.css"/>
-  <title>Приветствие
-  </title>
-  <style>
-    .user-about__text p {
-      margin-bottom: 25px;
-    }
-    
-    .user-about__text ul {
-      list-style: none;
-    }
-    
-  </style>
-</head>
-<body>
-  <div class="auth-container">
-    <div class="auth">
-      <div class="auth__info">
-        <div class="user">
-          <div class="user__photo"><img class="user__avatar" src="img/content/user.jpg" alt=""/></div>
-          <div class="user__name">Гуськов Михаил</div>
-          <div class="user__text">Личный сайт веб разработчика</div>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1"/>
+    <link rel="stylesheet" href="/css/main.css"/>
+    <title>Приветствие
+    </title>
+    <style>
+      .user-about__text p {
+        margin-bottom: 25px;
+      }
+      
+      .user-about__text ul {
+        list-style: none;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="auth-container">
+      <div class="login__btn auth__page">Authorisation</div>
+      <div class="auth">
+        <div class="auth__info">
+          <div class="user">
+            <div class="user__photo"><img class="user__avatar" src="img/content/user.jpg" alt=""/></div>
+            <div class="user__name">User Name</div>
+            <div class="user__text">Welcome my page</div>
+          </div>
+          <ul class="socials">
+            <li class="socials__item"><a class="socials__link" href="#">
+                <svg class="socials__icon">
+                  <use xlink:href="img/sprite/sprite.svg#vk"></use>
+                </svg></a></li>
+            <li class="socials__item"><a class="socials__link" href="#">
+                <svg class="socials__icon">
+                  <use xlink:href="img/sprite/sprite.svg#github"></use>
+                </svg></a></li>
+            <li class="socials__item"><a class="socials__link" href="#">
+                <svg class="socials__icon">
+                  <use xlink:href="img/sprite/sprite.svg#in"></use>
+                </svg></a></li>
+          </ul>
         </div>
-        <ul class="socials">
-          <li class="socials__item"><a class="socials__link" href="#">
-              <svg class="socials__icon">
-                <use xlink:href="img/sprite/sprite.svg#vk"></use>
-              </svg></a></li>
-          <li class="socials__item"><a class="socials__link" href="#">
-              <svg class="socials__icon">
-                <use xlink:href="img/sprite/sprite.svg#github"></use>
-              </svg></a></li>
-          <li class="socials__item"><a class="socials__link" href="#">
-              <svg class="socials__icon">
-                <use xlink:href="img/sprite/sprite.svg#in"></use>
-              </svg></a></li>
-        </ul>
+        <div class="auth__btns"><a class="auth__btn" href="#">My work</a><a class="auth__btn" href="#">About</a><a class="auth__btn" href="#">Blog</a></div>
       </div>
-      <div class="auth__btns"><a class="auth__btn" href="#">Мои работы</a><a class="auth__btn" href="#">Обо мне</a><a class="auth__btn" href="#">Блог</a></div>
     </div>
-  </div>
-</body>
+    <script></script>
+  </body>
+</html>
