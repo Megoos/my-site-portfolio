@@ -1,0 +1,27 @@
+.nav-menu {
+  padding: 10px 0;
+  text-align: center;
+  margin-right: -15px; 
+}
+
+.nav-menu__item {
+	display: inline-block;
+	margin-right: 15px;
+  margin-bottom: 5px;
+	// &:last-child {
+	// 	margin-right: 0;
+	// }
+}
+
+.nav-menu__link {
+	font-size: 16px;
+	text-decoration: none;
+	color: #fff;
+  font-weight: 500;
+  opacity: .7;
+  transition: 0.3s;
+
+  &:hover {
+    opacity: 1;
+  }
+}

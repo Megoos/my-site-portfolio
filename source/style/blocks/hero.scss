@@ -43,6 +43,7 @@
   display: inline-flex;
   @include centered(x);
   bottom: 50px;
+  z-index: 1;
 }
 
 .arrow-down__icon {
