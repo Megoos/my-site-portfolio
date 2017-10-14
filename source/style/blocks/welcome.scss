@@ -78,3 +78,28 @@
     background: $green;
   }
 }
+
+.login__btn {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  padding: 10px 30px;
+  border: 1px #fff solid;
+  border-radius: 50px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $green;
+    border-color: rgb(114, 158, 25);
+  }
+}
+
+.auth__page {
+  position: absolute;
+  top: 3%;
+  right: 2%;
+}
+
+
+
+
