@@ -70,6 +70,7 @@
   flex: 1;
   border-right: 2px solid;
   border-color: rgba(#dee3e7, .5);
+  transition: 0.3s;
   &:last-child {
     border-right: none;
   }
@@ -86,8 +87,9 @@
   padding: 10px 30px;
   border: 1px #fff solid;
   border-radius: 50px;
-  cursor: pointer;
-
+  text-decoration: none;
+  ;
+  transition: 0.3s;
   &:hover {
     background-color: $green;
   }
