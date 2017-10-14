@@ -90,7 +90,6 @@
 
   &:hover {
     background-color: $green;
-    border-color: rgb(114, 158, 25);
   }
 }
 
@@ -98,6 +97,15 @@
   position: absolute;
   top: 3%;
   right: 2%;
+}
+
+.auth__footer {
+  color: #fff;
+  font-size: 16px;
+  @include centered(x);
+  bottom: 3%;
+  width: 100%;
+  text-align: center;
 }
 
 

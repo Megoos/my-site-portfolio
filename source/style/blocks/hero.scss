@@ -1,0 +1,57 @@
+.hero {
+	height: 600px;
+	overflow: hidden;
+  position: relative;
+  background: url('/img/bg/about.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+
+.hero__header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 30px;
+
+  .socials__icon {
+    fill: #fff;
+
+    &:hover {
+      fill: $lightgreen;
+    }
+  }
+}
+
+.hero__container {
+	@include centered(y);
+	width: 100%;
+}
+
+.hero-title-pic {
+  @include centered();
+  width: 100%;
+  max-width: 1200px;
+}
+
+.hamburger__icon {
+  fill: #fff;
+  height: 25px;
+  max-width: 35px;
+}
+
+.arrow-down {
+  display: inline-flex;
+  @include centered(x);
+  bottom: 50px;
+}
+
+.arrow-down__icon {
+  height: 20px;
+  max-width: 20px;
+  fill:#fff;
+  opacity: .7;
+  transition: 0.3s;
+  &:hover {
+    opacity: 1;
+  }
+}
