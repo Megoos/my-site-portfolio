@@ -1,3 +1,4 @@
+//color
 $lightgreen: #6c9c5a;
 $green: #4e8839;
 $gray: #566358;
@@ -6,6 +7,12 @@ $white: #f4f5f0;
 $beige: #ebefe2;
 $lightbeige: #f8f9f5;
 
+//device resolutions
+$laptop: 1200px;
+$tablets: 768px;
+$phone: 480px;
+
+//import
 @import "mixins/*";
 
 @import "layout/setup";
